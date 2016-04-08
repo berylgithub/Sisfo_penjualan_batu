@@ -5,11 +5,14 @@
  */
 package sisfo_penjualan_batu;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Yorozuya
  */
-public class Customer {
-    String id, nama, alamat, email, telp;
-    int buyCount;
+public class DataDriver {
+    ArrayList<Account> arrAccount;
+    ArrayList<Barang> arrBarang;
+    ArrayList<Customer> arrCustomer;
 }

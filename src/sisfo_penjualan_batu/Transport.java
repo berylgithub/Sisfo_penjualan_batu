@@ -10,5 +10,6 @@ package sisfo_penjualan_batu;
  * @author Yorozuya
  */
 public class Transport {
-    
+    String id, nomorPolisi;
+    int rit;
 }

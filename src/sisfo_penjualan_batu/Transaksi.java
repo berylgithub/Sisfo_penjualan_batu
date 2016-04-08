@@ -10,5 +10,6 @@ package sisfo_penjualan_batu;
  * @author Yorozuya
  */
 public class Transaksi {
-    
+    String id, tgl;
+    double jumlah;
 }

@@ -9,12 +9,12 @@ package Form;
  *
  * @author Yorozuya
  */
-public class TestForm_Bayar extends javax.swing.JFrame {
+public class Input_Form_Bayar extends javax.swing.JFrame {
 
     /**
      * Creates new form TestForm_Bayar
      */
-    public TestForm_Bayar() {
+    public Input_Form_Bayar() {
         initComponents();
     }
 
@@ -40,7 +40,6 @@ public class TestForm_Bayar extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
 
@@ -71,8 +70,6 @@ public class TestForm_Bayar extends javax.swing.JFrame {
 
         jLabel12.setText("Sign Supir.jpg");
 
-        jLabel13.setText("getDate();");
-
         jLabel14.setText("getPerusahaanName();");
 
         jLabel15.setText("getTransaksiID();");
@@ -94,9 +91,7 @@ public class TestForm_Bayar extends javax.swing.JFrame {
                         .addComponent(jLabel15))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel13))
+                        .addComponent(jLabel3))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jLabel4))
@@ -123,7 +118,7 @@ public class TestForm_Bayar extends javax.swing.JFrame {
                         .addComponent(jLabel11)
                         .addGap(68, 68, 68)
                         .addComponent(jLabel12)))
-                .addContainerGap(137, Short.MAX_VALUE))
+                .addContainerGap(97, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -135,9 +130,7 @@ public class TestForm_Bayar extends javax.swing.JFrame {
                     .addComponent(jLabel14)
                     .addComponent(jLabel15))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel13))
+                .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -159,7 +152,7 @@ public class TestForm_Bayar extends javax.swing.JFrame {
                 .addContainerGap(279, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 800, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -181,20 +174,21 @@ public class TestForm_Bayar extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TestForm_Bayar.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Input_Form_Bayar.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TestForm_Bayar.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Input_Form_Bayar.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TestForm_Bayar.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Input_Form_Bayar.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TestForm_Bayar.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Input_Form_Bayar.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new TestForm_Bayar().setVisible(true);
+                new Input_Form_Bayar().setVisible(true);
             }
         });
     }
@@ -204,7 +198,6 @@ public class TestForm_Bayar extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
